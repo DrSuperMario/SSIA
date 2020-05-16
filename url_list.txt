@@ -1,0 +1,10 @@
+https://feeds.a.dj.com/rss/WSJcomUSBusiness.xmlm,
+https://feeds.a.dj.com/rss/RSSWSJD.xml,
+https://feeds.a.dj.com/rss/RSSMarketsMain.xml,
+https://www.economist.com/science-and-technology/rss.xml,
+https://www.economist.com/finance-and-economics/rss.xml,
+https://www.economist.com/business/rss.xml,
+https://www.bloomberg.com/markets/watchlist,
+https://finance.yahoo.com/topic/stock-market-news,
+https://www.marketwatch.com/latest-news?mod=home-page,
+https://www.cnbc.com/id/10001147/device/rss/rss.html

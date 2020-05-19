@@ -25,14 +25,14 @@ parser_t = ['html5lib',
             'html.parser']
 
 #reddit API key and INFP
-reddit = praw.Reddit(client_id='RssjiSClzNYEbg',
-                    client_secret='I4HopxhOsvtGflgcuhin9VfgXbk',
+reddit = praw.Reddit(client_id='<<Id goes here>>',
+                    client_secret='<<secret goes here>>',
                     user_agent='SSAT',
-                    username='DrSuperMario',
-                    password='dd$$b7@bkZnbeX7')
+                    username='<<user goes here>>',
+                    password='<<passwd goes here>>')
 #Twitter API keys 
-twitter_consumer_key='vJLlLpJ82bugjPjfyNMCPqLTp'
-twitter_consumer_secret='6p4bgoge6MX9I1PYULnBerFGJzSHnwsFd628fxhc6Mqaq7sNLO'
+twitter_consumer_key='<<Twitter goes here>>'
+twitter_consumer_secret='<<Secret here>>'
 auth_twitter = tweepy.AppAuthHandler(twitter_consumer_key, twitter_consumer_secret)
 twitter_api = tweepy.API(auth_twitter)
 
@@ -76,7 +76,7 @@ class Webscraper():
        'from=2020-04-20&'
        'to=2020-05-10&'
        'sortBy=popularity&'
-       'apiKey=8b06f370aeff4c6783d07563c1c7a6ec').format(keywords)
+       'apiKey=<<API Key here>>').format(keywords)
 
         response = requests.get(url)
         con = response.content

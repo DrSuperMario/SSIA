@@ -1,0 +1,7 @@
+praw==7.0.0
+pandas==1.0.1
+pandas-datareader==0.8.1
+tweepy==3.8.0
+beautifulsoup4==4.8.2
+requests==2.22.0
+nltk==3.4.5
